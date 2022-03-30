@@ -26,7 +26,7 @@ import { useStore, mapState } from 'vuex'
 
 export default {
   name: 'AppTopnav',
-  setup() {
+  setup () {
     const store = useStore()
 
     /* // mapState响应式做法

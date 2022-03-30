@@ -8,7 +8,7 @@ import { ref } from 'vue'
 import { findBanner } from '@/api/home'
 export default {
   name: 'HomeBanner',
-  setup() {
+  setup () {
     const sliders = ref([])
     findBanner().then(data => {
       sliders.value = data.result

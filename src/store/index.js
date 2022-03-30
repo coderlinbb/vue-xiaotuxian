@@ -1,6 +1,6 @@
 import { createStore } from 'vuex'
 
-//状态持久化
+// 状态持久化
 import createPersistedstate from 'vuex-persistedstate'
 
 import category from './modules/category'

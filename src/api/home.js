@@ -1,5 +1,4 @@
-import request from '@/utils/request';
-
+import request from '@/utils/request'
 
 export const findBrand = (limit = 6) => {
   return request('/home/brand', 'get', { limit })
@@ -20,7 +19,6 @@ export const findHot = () => {
 export const findGoods = () => {
   return request('home/goods', 'get')
 }
-
 
 export const findSpecial = () => {
   return request('home/special', 'get')

@@ -12,7 +12,7 @@ module.exports = {
       ]
     }
   },
-  //配置10kb下的图片打包成base64的格式
+  // 配置10kb下的图片打包成base64的格式
   chainWebpack: config => {
     config.module
       .rule('images')

@@ -56,7 +56,7 @@ import { useRoute } from 'vue-router'
 export default {
   name: 'XtxGoodsPage',
   components: { GoodsRelevant, GoodsImage, GoodsSales, GoodsName, GoodsSku, GoodsTabs, GoodsHot, GoodsWarn },
-  setup() {
+  setup () {
     const goods = useGoods()
     provide('goods', goods)
     // sku改变时候触发

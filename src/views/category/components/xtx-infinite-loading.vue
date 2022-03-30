@@ -26,7 +26,7 @@ export default {
       default: false
     }
   },
-  setup(props, { emit }) {
+  setup (props, { emit }) {
     const container = ref(null)
     useIntersectionObserver(
       container,

@@ -47,7 +47,7 @@ import { computed, ref, watch } from 'vue'
 export default {
   name: 'TopCategory',
   components: { GoodsItem },
-  setup() {
+  setup () {
     // 轮播图
     const sliders = ref([])
     findBanner().then(data => {

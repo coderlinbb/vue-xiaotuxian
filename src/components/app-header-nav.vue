@@ -25,7 +25,7 @@ import { useStore } from 'vuex'
 
 export default {
   name: 'AppHeaderNav',
-  setup() {
+  setup () {
     const store = useStore()
     const list = computed(() => {
       return store.state.category.list

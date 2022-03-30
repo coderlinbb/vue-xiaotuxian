@@ -15,7 +15,7 @@
 import { inject } from 'vue'
 export default {
   name: 'GoodsDetail',
-  setup() {
+  setup () {
     const goods = inject('goods')
     return { goods }
   }

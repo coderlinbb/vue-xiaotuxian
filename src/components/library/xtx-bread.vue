@@ -3,7 +3,7 @@
 import { h } from 'vue'
 export default {
   name: 'XtxBread',
-  render() {
+  render () {
     // 用法
     // 1. template 标签去除，单文件组件
     // 2. 返回值就是组件内容

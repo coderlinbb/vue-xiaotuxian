@@ -27,7 +27,7 @@ import { useLazyData } from '@/hooks'
 export default {
   name: 'HomeNew',
   components: { HomePanel, HomeSkeleton },
-  setup() {
+  setup () {
     // const goods = ref([])
     // findHot().then(data => {
     //   goods.value = data.result

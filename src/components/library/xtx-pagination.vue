@@ -27,7 +27,7 @@ export default {
       default: 10
     }
   },
-  setup(props, { emit }) {
+  setup (props, { emit }) {
     // 总条数
     const myTotal = ref(100)
     // 每页条数

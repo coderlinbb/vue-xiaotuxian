@@ -29,7 +29,7 @@ export default {
       default: 99
     }
   },
-  setup(props, { emit }) {
+  setup (props, { emit }) {
     const num = useVModel(props, 'modelValue', emit)
     const changeNum = value => {
       const newValue = num.value + value

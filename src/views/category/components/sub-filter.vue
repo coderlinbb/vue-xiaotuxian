@@ -27,7 +27,7 @@ import { useRoute } from 'vue-router'
 import { ref, watch } from 'vue'
 export default {
   name: 'SubFilter',
-  setup(props, { emit }) {
+  setup (props, { emit }) {
     // 1. 获取数据
     // 2. 数据中需要全部选中，需要预览将来点击激活功能。默认选中全部
     // 3. 完成渲染

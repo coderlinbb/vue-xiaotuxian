@@ -72,7 +72,7 @@ export default {
     //   default: () => {}
     // }
   },
-  setup(props) {
+  setup (props) {
     const goods = inject('goods')
     const commentInfo = getCommentInfo(goods)
     // 记录当前激活的索引

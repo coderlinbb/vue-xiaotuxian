@@ -41,7 +41,7 @@ export default {
       default: 3000
     }
   },
-  setup(props) {
+  setup (props) {
     const index = ref(0)
 
     let timer = null

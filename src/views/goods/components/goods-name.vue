@@ -37,7 +37,7 @@ export default {
       default: () => ({})
     }
   },
-  setup(props) {
+  setup (props) {
     // 默认情况
     const provinceCode = ref('110000')
     const cityCode = ref('119900')

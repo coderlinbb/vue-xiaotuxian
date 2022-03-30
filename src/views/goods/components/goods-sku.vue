@@ -92,7 +92,7 @@ export default {
       default: ''
     }
   },
-  setup(props, { emit }) {
+  setup (props, { emit }) {
     const pathMap = getPathMap(props.goods.skus)
     // 根据传入的skuId默认选中规格按钮
     initSelectedStatus(props.goods, props.skuId)

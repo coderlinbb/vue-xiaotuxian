@@ -19,7 +19,7 @@ import { useStore } from 'vuex'
 export default {
   name: 'Layout',
   components: { AppNavbar, AppHeader, AppFooter, AppHeaderSticky },
-  setup() {
+  setup () {
     const store = useStore()
     store.dispatch('category/getList')
   }

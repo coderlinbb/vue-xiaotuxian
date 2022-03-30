@@ -2,7 +2,7 @@ import { topCategory } from '@/api/constants'
 import { findAllCategory } from '@/api/category'
 
 const actions = {
-  async getList({ commit }) {
+  async getList ({ commit }) {
     const { result } = await findAllCategory()
 
     result.forEach(item => {
@@ -14,15 +14,15 @@ const actions = {
 }
 
 const mutations = {
-  setCategory(state, headCategory) {
+  setCategory (state, headCategory) {
     state.list = headCategory
   },
-  show(state, item) {
+  show (state, item) {
     const category = state.list.find(category => category.id === item.id)
     category.open = true
   },
   // 修改当前一级分类下的open数据为false
-  hide(state, item) {
+  hide (state, item) {
     const category = state.list.find(category => category.id === item.id)
     category.open = false
   }

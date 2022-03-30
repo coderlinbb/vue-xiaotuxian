@@ -29,7 +29,7 @@ import { useLazyData } from '@/hooks'
 export default {
   name: 'HomeBrand',
   components: { HomePanel },
-  setup() {
+  setup () {
     // const brands = ref([])
     // findBrand(10).then(data => {
     //   brands.value = data.result

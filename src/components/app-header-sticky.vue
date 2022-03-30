@@ -18,7 +18,7 @@ import { ref, onMounted } from 'vue'
 export default {
   name: 'AppHeaderSticky',
   components: { AppHeaderNav },
-  setup() {
+  setup () {
     // const y = ref(0)
     // onMounted(() => {
     //   window.onscroll = () => {

@@ -22,7 +22,7 @@ export default {
     }
   },
   components: { GoodsItem },
-  setup(props) {
+  setup (props) {
     // 处理标题
     const titleObj = { 1: '24小时热销榜', 2: '周热销榜', 3: '总热销榜' }
     const title = computed(() => {

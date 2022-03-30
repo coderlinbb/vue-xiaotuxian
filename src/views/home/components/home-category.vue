@@ -52,7 +52,7 @@ import { findBrand } from '@/api/home'
 
 export default {
   name: 'HomeCategory',
-  setup() {
+  setup () {
     const store = useStore()
     const brand = reactive({
       id: 'brand',

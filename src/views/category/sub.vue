@@ -30,7 +30,7 @@ import { useRoute } from 'vue-router'
 export default {
   name: 'SubCategory',
   components: { SubBread, SubFilter, SubSort, GoodsItem, XtxInfiniteLoading },
-  setup() {
+  setup () {
     // 1. 基础布局
     // 2. 无限加载组件
     // 3. 动态加载数据且渲染

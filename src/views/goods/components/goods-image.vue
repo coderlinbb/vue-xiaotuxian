@@ -24,7 +24,7 @@ export default {
       default: () => []
     }
   },
-  setup(props) {
+  setup (props) {
     const currIndex = ref(0)
     const { position, bgPosition, show, target } = usePreviewImg()
     const returnUsePreviewImg = { position, bgPosition, show, target }

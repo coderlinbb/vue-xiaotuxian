@@ -10,11 +10,12 @@
 // import XtxBreadItem from './xtx-bread-item.vue'
 
 // 参数：1. 目录  2. 是否加载子目录  3. 加载的正则匹配
+import defaultImg from '@/assets/images/200.png'
+
 const importFn = require.context('./', false, /\.vue$/)
 
 export default {
-  install(app) {
-
+  install (app) {
     // 在app上进行扩展，app提供 component directive 函数
     // 如果要挂载原型 app.config.globalProperties 方式
     // app.component(XtxSkeleton.name, XtxSkeleton)
@@ -33,12 +34,10 @@ export default {
     defineDirective(app)
   }
 }
-
-import defaultImg from '@/assets/images/200.png'
 const defineDirective = (app) => {
   // 图片懒加载指令
   app.directive('lazyload', {
-    mounted(el, binding) {
+    mounted (el, binding) {
       const observer = new IntersectionObserver(([{ isIntersecting }]) => {
         if (isIntersecting) {
           observer.unobserve(el)

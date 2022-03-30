@@ -27,7 +27,7 @@ export default {
       default: ''
     }
   },
-  setup(props, { emit }) {
+  setup (props, { emit }) {
     // 控制展开收起,默认收起
     const active = ref(false)
     // const openDialog = () => {

@@ -30,7 +30,7 @@ import { ref } from 'vue'
 export default {
   name: 'HomeSpecial',
   components: { HomePanel },
-  setup() {
+  setup () {
     const target = ref(null)
     const data = useLazyData(target, findSpecial)
 

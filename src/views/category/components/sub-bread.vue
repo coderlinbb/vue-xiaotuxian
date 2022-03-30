@@ -13,7 +13,7 @@ import { useRoute } from 'vue-router'
 import { computed } from 'vue'
 export default {
   name: 'SubBread',
-  setup() {
+  setup () {
     // 注意：setup中this不是当前vue实例
 
     // 1. 获取二级分类的ID，在地址在路由中

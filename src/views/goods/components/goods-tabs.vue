@@ -15,7 +15,7 @@ import GoodsComment from './goods-comment'
 export default {
   name: 'GoodsTabs',
   components: { GoodsDetail, GoodsComment },
-  setup() {
+  setup () {
     const goods = inject('goods')
     // detail-->详情   comment-->评价
     const activeName = ref('detail')

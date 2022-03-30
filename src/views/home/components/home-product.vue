@@ -34,7 +34,7 @@ import { ref } from 'vue'
 export default {
   name: 'HomeProduct',
   components: { HomePanel, HomeGoods },
-  setup() {
+  setup () {
     const target = ref(null)
     const result = useLazyData(target, findGoods)
 

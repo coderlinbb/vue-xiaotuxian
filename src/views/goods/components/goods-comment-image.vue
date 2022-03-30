@@ -21,7 +21,7 @@ export default {
       default: () => []
     }
   },
-  setup() {
+  setup () {
     const currImage = ref(null)
     return { currImage }
   }

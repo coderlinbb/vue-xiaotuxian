@@ -21,7 +21,7 @@
 import { reactive } from 'vue'
 export default {
   name: 'SubSort',
-  setup(props, { emit }) {
+  setup (props, { emit }) {
     // 1. 根据后台需要的参数定义数据对象
     // 2. 根据数据对象，绑定组件（复选框，排序按钮）
     // 3. 在操作排序组件的时候，需要反馈给数据对象
